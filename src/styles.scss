@@ -1,1 +1,42 @@
+
 /* You can add global styles to this file, and also import other style files */
+.container-fluid{
+    width: 90%;
+    padding: 0px;
+    height: 1750px;
+    }
+    .cv-name{
+     font-size: 50px;
+     letter-spacing: 7px;
+     transform: scaleY(1.5); 
+     transform-origin: 3px 19px;
+    }
+    #left-side{
+   color:white;
+   background-color:#990000;
+   margin-left: -16px;
+    }
+    #left-side img{
+      width: 100%;
+      height: 243px;
+border-bottom: 3px solid yellow;
+    }
+    #left-side .left-side-info {
+      padding: 17px 27px 4px;
+    }
+    .list-competences{
+      padding: 0px;
+      margin:0px;
+    }
+
+  //right side text
+  .list-text-summary{
+    margin: 0px;
+    padding: 0 14px;
+  }
+  @media only screen and (max-width: 900px) {
+    .year a{
+      margin-left: -7px;
+     }
+  }
+    
